@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="front-page-img">
+            <div class="logo">
+                <img src="../pictures/odin-lined.png" alt="">
+                <div class="logo-msg">Brothers</div>
+            </div>
+        </div>
+        <div class="sign-in-section">
+            <div class="welcome-msg">
+                <p>Welcome to our community! We are here to help you <br>
+                    become a better and happier man.
+                </p>
+                <p>Sign up now to get started
+                </p>
+                <p style="margin-top: 1rem;"><em>You know you want to!!!</em></p>
+            </div>
+            <form action="get" class="details-form" id="my-form">
+                <p>Lets do this brahs!</p>
+                <div class="form-row">
+                    <div>
+                        <label for="name1">First Name</label>
+                        <input type="text" name="first-name" id="name1" placeholder="John" required>
+                    </div>
+                    <div>
+                        <label for="name2">Second Name</label>
+                        <input type="text" name="second-name" placeholder="Doe" id="name2">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="user-mail" id="email" placeholder="example@gmail.com">
+                    </div>
+                    <div>
+                        <label for="phn">Phone Number</label>
+                        <input type="tel" name="user-phone" id="phn" required placeholder="0718882349">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="pswd">Password</label>
+                        <input type="password" name="usr-password" id="pswd" required placeholder="1234">
+                    </div>
+                    <div>
+                        <label for="pswd2">Confirm Password</label>
+                        <input type="password" name="usr-password-confirm" id="pswd2" required placeholder="1234">
+                    </div>
+                </div>
+            </form>
+            <div class="footer">
+                <button form="my-form" type="submit" class="acc-create-btn">Create Account</button>
+                <div>Already have an account? <span><a href="">log in</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
