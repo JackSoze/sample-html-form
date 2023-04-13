@@ -26,7 +26,7 @@ body {
 
 .front-page-img {
     flex: 1;
-    background-image: url("../pictures/front-page-img.jpg");
+    background-image: url("./pictures/front-page-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,6 +72,7 @@ body {
 .details-form {
     background-color: white;
     padding: 20px 30px;
+    box-shadow: 0px 2px 5px #999;
 }
 
 .form-row {
